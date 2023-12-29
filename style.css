@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_page{
+    width: 1440px;
+    height: 808px;
+    background: linear-gradient(180deg, rgba(2, 6, 11, 0.70) 0%, rgba(2, 6, 11, 0.00) 32.85%),  lightgray -7px 1.995px / 100.903% 99.753% no-repeat;
+    background-image: url(unsplash_gioH4gHo0-g.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.top_nav{
+    position: relative;
+    padding: 70px 110px 0 88px;
+    font-size: 24px;
+    font-family: Work sans-serif;
+    font-weight: bold;  
+}   
+
+.left_n{
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+}
+
+.left_n a:hover{
+    color: olivedrab;
+}
+
+.right_n{
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    gap: 10px;
+
+}
+
+
+.top_nav a{
+    text-decoration: none;
+    color: white;
+    padding-top: 17px;
+}
+
+
+
+.nav{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    height: 34px;
+    width: 34px;
+}
+
+.icon:hover{
+    height: 36px;
+    width: 36px;
+}
+
+.main_page_text{
+    color: white;
+    font-size: 56px;
+    font-family: Work Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+    padding: 107px 773px 144px 88px;
+}
+
+.mobile_t{
+    position:absolute;
+    bottom: -19%;
+    height: 280px;
+    width: 1264px;
+    left: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(Mobile.png);
+}
+
+.mobile_p{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.free-guitar-lessons{
+    color: white;
+    font-size: 46px;
+    font-family: Work Sans;
+    font-weight: bold;
+}
+
+.guitar-sale{
+    color: white;
+    font-size: 24px;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 35.76px;
+    word-wrap: break-word
+}
+
+.learn-more{
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-family: Work Sans;
+    font-weight: bold;
+    line-height: 18.20px;
+    word-wrap: break-word;
+    background-color: orangered;
+    border-radius: 10px;
+    width: 125px;
+    height: 34px;
+}
+
+.learn-more:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    transition: 1s;
+    font-size: 23px;
+}
+
+/* .second_page{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, min-content); 
+    gap: 32px; 
+    display: flex;
+    align-items: normal;
+    justify-content: center;
+
+} */
+
+.second_page_title{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #505050;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 400px;
+}
+
+.guitars{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 15px;
+}
+
+.image_guitar{
+    background-color: #D3D3D3;
+    border-radius: 8px;
+}
+
+.guitars_div{
+    box-shadow: 4px 5px #D3D3D3;
+    border-radius: 8px;
+
+}
+
+.guitars_div:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px #D3D3D3;
+    transition: 1s;
+}
+
+.brand_price{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+
+.brand_name{
+    color: #252525;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 23.40px;
+    word-wrap: break-word;
+}
+
+.price{
+    color: #252525;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 23.40px;
+    word-wrap: break-word;
+    padding-right: 6px;  
+}
+
+.product_description{
+    color: #767676;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 20.80px;
+    word-wrap: break-word
+}
+
+.c_a{
+    color: #505050;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+
+.third_page{
+    background-color: #D3D3D3 ;
+    margin-top: 100px;
+    height: 670px;
+
+}
+
+.third_page_title{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #505050;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 88px;
+}
+
+.accessories_f{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 15px;
+}
+
+.acc_div1{
+    border-radius: 8px;
+    box-shadow: 4px 5px #767676;
+    margin-top: 15px;
+}
+
+.acc_div1:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px #767676;
+    transition: 1s;
+}
+
+.acc_div{
+    border-radius: 8px;
+    box-shadow: 4px 5px #767676;
+}
+
+.acc_div:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px #767676;
+    transition: 1s;
+}
+
+.acc_div:hover{
+    cursor: pointer;
+    box-shadow: 8px 10px #767676;
+}
+
+.image_acc{
+    background-color: white;
+    border-radius: 8px;
+}
+/* **************************************************** */
+.fourth_page{
+    margin-top: 100px;
+}
+
+
+.fourth_page_title{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #505050;
+    font-size: 40px;
+    font-family: Work Sans;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 88px;
+}
+
+.gear_pics_one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 48px;
+}
+
+.gear_image{
+    width: 616px;
+    height: 487px;
+}
+
+.page_back{
+    background-color: #252525;
+    margin-top: -7px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.f_two :hover{
+    background-color: #505050;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.gear_image:hover{
+    width: 625px;
+    height: 500px;
+}
+
+.page_back1{
+    background-color: #767676;
+    margin-top: -7px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+
+.ar_title{
+    color: white;
+    font-size: 28px;
+    font-family: Work Sans;
+    font-weight: 700;
+    line-height: 31.20px;
+    word-wrap: break-word
+}
+
+.ar_subhead{
+    color: #C4C4C4;
+    font-size: 22px;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 23.40px;
+    word-wrap: break-word
+}
+
+.gear-image1{
+    width: 400px;
+    height: 480px;
+}
+
+.gear-image1:hover{
+    width: 420px;
+    height: 500px;
+    transition: 1s;
+}
+
+
+.f-three:hover{
+    box-shadow: 8px 10px #505050;
+}
+
+.gear_pics_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 48px;
+}
+
+.footer{
+    width: 1440px;
+    height: 290px;
+    background-color: #505050;
+    margin-top: 88px;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+    
+    
+}
+
+.footer h5{
+    color: white;
+    font-size: 25px;
+    font-family: Work Sans;
+    font-weight: bold;
+    line-height: 18.20px;
+    word-wrap: break-word
+}
+
+.footer p{
+    color: white;
+    font-size: 20px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 18.20px;
+    word-wrap: break-word
+}
+
+.footer_left{
+    padding-left: 100px;
+    gap: 10px;
+    flex-direction: column;
+    display: inline-flex;
+}
+
+.footer h5:hover{
+    color: #252525;
+    cursor: pointer;
+    box-shadow: 2px 3px 2px 2px #252525;
+    transition: 1s;
+}
+
+.footer p:hover{
+    color: #252525;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px 1px #252525;
+    transition: 1s;
+
+}
+
+.footer_right{
+    gap: 10px;
+    flex-direction: column;
+    display: inline-flex;
+
+}
+
+.f_right{
+    margin-top: -200px;
+    margin-left: 1100px;
+}
+
+.copyright{
+    background-color: #252525;
+    width: 1440px;
+    height: 34px;
+}
+
+.copy_p{
+    color: white;
+    margin-left: 100px;
+    padding-top: 8px;
+}
+
+.footer_logos{
+    display: inline-flex;
+    justify-content: end;
+    align-items: end;
+    gap: 8px;
+    margin-left: 1120px;
+    margin-top: 20px;
+}
+
+.logos{
+    height: 35px;
+    width: 35px;
+}
+
+.logos:hover{
+    height: 40px;
+    width: 40px;
+    box-shadow: 4px 6px #252525;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+@media screen {
+    
+}
+
+
+
+
+
